@@ -26,6 +26,12 @@
 (defroute "/" ()
   (render #P"index.html"))
 
+(defroute "/ResearchStuff" ()
+  (render #P"research_hub.html"))
+
+(defroute "/ResearchStuff/lojban" ()
+  (render #P"lojban.html"))
+
 (defroute "/testing/" ()
   (render #P"testing.html"))
 

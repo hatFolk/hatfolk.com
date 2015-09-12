@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>{% block title %}{% endblock %}</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/solarized-dark.min.css">
-</head>
-<body>
-  {% block content %}{% endblock %}
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/solarized-dark.min.css">
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="/">Home</a>
+      <a href="https://github.com/hatFolk">GitHub</a>
+      <a href="/ResearchStuff">Research and Projects</a>
+    </nav>
+    {% block content %}{% endblock %}
+  </body>
 </html>
