@@ -4,10 +4,44 @@
 <h2>Lojban as an Interlingual</h2>
 <div id="background">
   <h5>Background Information</h5>
-  This is undergraduate research I'm doing for OSCAR.
+  <p>This is undergraduate research I'm doing for OSCAR.  Currently,
+    when Google Translate does translation, it does so by translating to
+    English and then to its target language. English, being chosen as
+    the "Interlingual" or intermediate language for translation, is
+    simply by the fact of being the lingua franca of many modern
+    industries and the best well studied language. However, it, like
+    many languages, contain ambiguities built into the language that can
+    cause inaccuracies during translation. This is unlike constructed
+    languages, in particularly, like Lojban, whose purpose was to
+    provide a means of communicating unambiguously for use in diplomacy
+    and the expression of logic. The goal is to determine whether
+    Lojban's unambiguous properties can produce objectively better
+    translations than that of Google Translate.</p>
 </div>
 <div id="sources">
   <h5>Source evaluation</h5>
+  <ul>
+    <li><a href="https://pypi.python.org/pypi/camxes">Camxes</a></li>
+    Python module which parses Lojban and turns the text into trees, JSON files, etc.
+    It essentially works as an automatic grammar checker.
+    <li><a href="https://github.com/teleological/camxes-py">Camxes-Py</a></li>
+    Developed by Riley Martinez-Lynch. A different parser, with more
+    options to change things like rules, serialization, and
+    transformation. Pure Python.
+    <li><a href="https://github.com/lojban/valis">Valis</a></li> A
+    postgres database with API for dynamic dictionary search for the
+    meaning of lojban words. It is an updated version
+    of <a href="https://github.com/lojban/jbovlaste">jbovlaste</a>,
+    which is quite old.
+    <li><a href="https://github.com/lojban/jbokorp">jbokrop</a></li> A
+    search engine for text within the corpora. The text are stored in xml files.
+    <li><a href="https://github.com/lojban/jbofihe">jbofihe</a></li> A
+    bundle of software. It does checks grammar of a lojban text,
+    displays grammar trees, produces literal translations.
+    <li><a href="https://github.com/lojban/ilmentufa">ilmentufa</a></li>
+    A Syntactic checking for lojban. Specifically developed for la
+    bangu style teaching (A simplified lojban).
+  </ul>
   
 
 </div>
