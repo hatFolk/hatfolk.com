@@ -1,0 +1,45 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/css/solarized-dark.min.css" />
+#+TITLE: Journal
+#+OPTIONS: H:2
+#+OPTIONS: toc:1
+* <2015-09-16 Wed>
+** Fixed Pip.
+Turns out it was a package manager fight. Once I unemerged pip and
+reinstalled it using the manual installer, it worked just fine.
+*** Had issues installing different pips. Fixed it.
+** Installed and played with Camxes.
+It's a really easy tool.
+** Kunal got back to me
+*** TODO Look into IRSLTM
+This is a modeling toolkit by Marcello Federico at FBK and University of Trento in Italy
+*** TODO Look into Berkley POS (Parts of Speech) Tagger
+*** TODO Look into Tree Tagger
+*** TODO Look into shef.mt.tools Java package
+*** TODO Go through MT work done by RWTH Aachen
+Good enough for a jumping point in learning MT
+*** TODO Also look at previous work done by AppTek, prior to eBay acquisition
+They specialized in Automated Speech Recognition (ASR) and Machine Translation (MT)
+*** TODO Linguistics Textbook: Find Jurafsky and Martin
+** Emailed Riley, asked him for more resources
+He saw it. What next...
+** Adventures in Github
+*** [[https://github.com/leeavital/Lojban-Translator][Lojban-Translator]] 
+It feels like a school project. Tried their examples and one throws an exception.
+Namely, "do blari'o" is supposed to be "you're blue"
+* <2015-09-15 Tue>
+** Had a meeting with Kauffman at 9 am.
+Work hard, work smart, honor the time commitments.
+Got a list of things to get done.
+*** TODO Send Preliminary Results by <2015-09-21 Mon>
+*** TODO Translate "The duck is ready to eat" into two lojban sentences.
+*** TODO Produce an overview of the grammar
+*** TODO Produce list of tools with quality evals
+#+BEGIN_QUOTE
+"Dictionaries are useful.\\
+Parsers are more useful.\\
+Does a Lojban to English translator exist?"
+#+END_QUOTE
+*** TODO Get NLP/MT background resource 
+*** TODO Check out NLTK. See if it's good for Lojban (or too English-centric)
+*** TODO Meet with him at 9:30, <2015-09-25 Fri>, preparing the above as demonstration
+** Libraries are good places not to get distracted
