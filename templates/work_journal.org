@@ -5,7 +5,7 @@
 #+OPTIONS: toc:2
 * Week of September 14
 ** <2015-09-16 Wed>
-*** 1st stint of work (1.5 hrs)
+*** 1st stint of work (3 hrs)
 **** Software Side
 ***** [[https://github.com/leeavital/Lojban-Translator][Lojban-Translator]] 
 - It feels like a school project. Tried their examples and one throws an exception.
@@ -116,7 +116,9 @@ text
 #+END_SRC
 - It's interesting that it classifies the word and breaks it down into morphologic components
 - It produces a really indepth mapping of a grammatic structure
-
+****** Implementation Notes:
+It runs with Java as a backend. There exists camxes-py and
+python-camxes, which are pure python implementations.
 ** <2015-09-15 Tue>
 *** Had a meeting with Kauffman at 9 am.
 Work hard, work smart, honor the time commitments.
