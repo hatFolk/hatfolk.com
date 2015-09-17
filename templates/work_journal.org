@@ -119,6 +119,13 @@ text
 ****** Implementation Notes:
 It runs with Java as a backend. There exists camxes-py and
 python-camxes, which are pure python implementations.
+*** 2nd Stint of Work (1 hr)
+**** Library!
+***** Checked out Three Books.
+P300 is a good place to be for Machine Translation specific stuff.
+NLP can be found in QA and Linguistics can be found in P27 on.
+***** Talked to a librarian about specialty librarians
+***** Read for a while
 ** <2015-09-15 Tue>
 *** Had a meeting with Kauffman at 9 am.
 Work hard, work smart, honor the time commitments.
