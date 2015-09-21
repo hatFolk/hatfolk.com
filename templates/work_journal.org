@@ -4,6 +4,31 @@
 #+OPTIONS: H:3
 #+OPTIONS: toc:2
 * Week of September 14
+** <2015-09-20 Sun>
+*** Grammar studies
+**** "The duck is ready to eat" can be translated to Lojban differently
+***** If the Duck is consuming food : "lo datka cu bredi lo ka citka" => "the duck is ready to be the eater"
+***** If the Duck is being consumed : "lo datka cu bredi lo ka se citka" => "the duck is ready to be the eaten"
+***** Best attempt at keeping the ambiguity : "lo datka cu bredi lo nu citka" => "the duck is ready for an event where eating occurs"
+****** It should be noted that 'nu' is only used when it is purposely unclear how a gismu (a verb) is related. It's its own type of unambiguity.
+****** Gleki is still trying to combine both meanings to create a phrase analogous to the original English.
+The fact that it requires the concept of full propositional
+abstractions and still hasn't gotten the job done is saying something.
+**** Got information
+***** Gleki, of the Wave Lessons, talked to me about parsers.
+****** TODO Look up Stanfard Parser
+****** TODO Look up [[https://github.com/opencog/opencog][OpenCog]].
+OpenCog appears to be like the [[http://lac.gmu.edu/projects/disciple/disciple.htm][DISCIPLE]] framework.
+** <2015-09-17 Thr>
+*** 1st stint of work (1.5 hrs)
+**** Riley got back to me
+***** Recommended Books:
+"Loom of Language"
+***** State of Software:
+****** English to Lojban
+There aren't any, as far as he knows
+****** Lojban to English
+******* There exist plenty
 ** <2015-09-16 Wed>
 *** 1st stint of work (3 hrs)
 **** Software Side
@@ -118,7 +143,7 @@ text
 - It produces a really indepth mapping of a grammatic structure
 ****** Implementation Notes:
 It runs with Java as a backend. There exists camxes-py and
-python-camxes, which are pure python implementations.
+python-camxes, which are pure python implementations. They're essentially the same.
 *** 2nd Stint of Work (1 hr)
 **** Library!
 ***** Checked out Three Books.
@@ -132,7 +157,40 @@ Work hard, work smart, honor the time commitments.
 Got a list of things to get done.
 *** List of Stuff to Do
 **** TODO Send Preliminary Results by <2015-09-21 Mon>
-**** TODO Translate "The duck is ready to eat" into two lojban sentences.
+**** DONE Translate "The duck is ready to eat" into two lojban sentences.
+***** If the Duck is consuming food
+"lo datka cu bredi lo ka citka" => "the duck is ready to be the eater"
+***** If the Duck is being consumed
+"lo datka cu bredi lo ka se citka" => "the duck is ready to be the eaten"
+****** A note on "lo ka (se) citka"
+The difference between the two phrases is the last part "lo ka citka"
+and "lo ka se citka". One means "the eater" and the other "the eaten".
+
+Here's the breakdown:
+
+In lojban, citka is a gismu (an abstraction for a concept, best
+analogous to a verb). To modify the gismu, one can turn it concrete by
+placing the "lo" article in front of it.
+
+So far "lo citka" means "the eating", leaving "ka" and "ka se".
+
+"ka" is an abstraction of a property, and can often be translated,
+verbosely, as "Having the property of". "lo ka citka" is "Someone has
+the property of eating".
+
+"se" has to go into the construction of bridi. bridi is the base
+semantic units in lojban, and could be considered how sentences should
+be formed. citka as a bridi would be defined as x_1 (the eating) eats
+x_2 (the consumed). So, saying something like "I eat the duck" would
+be "mi citka lo datka". However, to say something like "I am eaten by
+the duck" I might do "mi se citka lo datka". What "se" does is switch
+the order of arguments in a bridi, thus se citka is now x_2 (the
+consumed) is eaten by x_1. "lo ka se citka" is then "Someone has the
+property of being eaten".
+
+These modifier words, or cmavo, serve a great grammatical purpose in
+bringing full precision into the language.
+
 **** TODO Produce an overview of the grammar
 **** TODO Produce list of tools with quality evals
 #+BEGIN_QUOTE
@@ -140,7 +198,7 @@ Got a list of things to get done.
 Parsers are more useful.\\
 Does a Lojban to English translator exist?"
 #+END_QUOTE
-**** TODO Get NLP/MT background resource 
+**** DONE Get NLP/MT background resource 
 **** TODO Check out NLTK. See if it's good for Lojban (or too English-centric)
 **** TODO Meet with him at 9:30, <2015-09-25 Fri>, preparing the above as demonstration
 *** Libraries are good places not to get distracted
