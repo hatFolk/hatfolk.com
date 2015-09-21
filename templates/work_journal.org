@@ -1,7 +1,7 @@
 #+STARTUP: indent
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/css/solarized-dark.min.css" />
 #+TITLE: Journal
-#+OPTIONS: H:3
+#+OPTIONS: H:4
 #+OPTIONS: toc:2
 * Week of September 14
 ** <2015-09-20 Sun>
