@@ -3,6 +3,14 @@
 #+TITLE: Journal
 #+OPTIONS: H:4
 #+OPTIONS: toc:2
+* Week of September 21
+** <2015-09-21 Mon>
+*** Checked out NLTK
+NLTK is English focused, technically. You can change the language of
+parsing and tagging if you have a corpora of pre-tagged text.
+
+To use NLTK for this, I would need to find lojban text that has been tagged.
+I'll ask the community later tonight.
 * Week of September 14
 ** <2015-09-20 Sun>
 *** Grammar studies
