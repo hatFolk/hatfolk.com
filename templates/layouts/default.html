@@ -3,14 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/solarized-dark.min.css">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="/css/solarized-dark.min.css">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.deep_purple-indigo.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="/css/demo-mdl.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
   </head>
   <body>
-    <nav class="navigation">
-      <a href="/">Home</a>
-      <a href="https://github.com/hatFolk">GitHub</a>
-      <a href="/ResearchStuff">Research and Projects</a>
-    </nav>
-    {% block content %}{% endblock %}
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <div class="mdl-layout__drawer">
+	<span class="mdl-layout-title">hatFolk</span>
+	<nav class="mdl-navigation">
+	  <a class="mdl-navigation__link" href="/">Home</a>
+	  <a class="mdl-navigation__link" href="https://github.com/hatFolk">GitHub</a>
+	  <a class="mdl-navigation__link" href="/ResearchStuff">Research and Projects</a>
+	  <!--<a class="mdl-navigation__link" href="">Link</a>-->
+	</nav>
+      </div>
+      <div class="demo-ribbon mdl-layout--fixed-header mdl-shadow--4dg"></div>
+      <main class="demo-main mdl-layout__content">
+	<div class="demo-container mdl-grid">
+	  <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+	  <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--black mdl-cell mdl-cell--8-col">
+	    <h1>{% block title %}{% endblock %}</h1>
+	    {% block content %}{% endblock %}
+	  </div>
+      </main>
+
+      <!-- Footer! -->
+      <div class="demo-footer mdl-color--grey mdl-shadow--4dp mdl-color-text--black">
+	<span id="commonlisp">Web Framework: <a href="http://8arrow.org/caveman/">Caveman2</a> | </span>
+	<div class="mdl-tooltip mdl-tooltip--top" for="commonlisp">Common Lisp. Try SBCL!</div>
+	<span id="google">Front-End Framework: <a href="http://getmdl.io/">Material Design Lite</a> | </span>
+	<div class="mdl-tooltip mdl-tooltip--top" for="google">Material Design is fun</div>
+	<span id="triclops200">Background Photo: Courtesy of <a href="http://triclops200.com">Triclops200</a></span>
+	<div class="mdl-tooltip mdl-tooltip--top" for="triclops200">You should check out his blog at blog.triclops200.com!</div>
+      </div>
+      </div>
   </body>
 </html>
