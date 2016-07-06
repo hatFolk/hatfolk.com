@@ -35,9 +35,6 @@
 (defroute "/ResearchStuff/lojban/journal" ()
      (render #P"work_journal.html"))
 
-(defroute "/blog" ()
-  (render "www.google.com"))
-
 (defroute "/testing/" ()
   (render #P"testing.html"))
 
